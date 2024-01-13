@@ -36,6 +36,8 @@ var user = {
     }
     
 };
+
+console.log(user.getUserInfo());
 user.buyCourse("React JS");
 user.buyCourse("Angular JS");
 
