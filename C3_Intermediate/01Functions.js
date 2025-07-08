@@ -14,7 +14,7 @@ function namastey() {
     return "Hello in India";
 }
 
-namastey();
-console.log(namastey());
+namastey(); //this will not print anything to console
+console.log(namastey()); // this will print the return value of the function
 var greetings = namastey();
 console.log(greetings);

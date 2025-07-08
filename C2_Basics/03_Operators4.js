@@ -1,6 +1,17 @@
 console.log((1+((2**3)*4/5)));
 console.log((1+((2**3)*4/5))>>6);
 
+console.log(3 + 10 * 2); // 23
+console.log(3 + (10 * 2)); // 23, because parentheses here are superfluous
+console.log((3 + 10) * 2); // 26, because the parentheses change the order
+
+const a = 4 ** 3 ** 2; // Same as 4 ** (3 ** 2); evaluates to 262144
+console.log(a);
+
+const b = 4 / 3 / 2; // Same as (4 / 3) / 2; evaluates to 0.6666...
+console.log(b);
+
+
 function echo(name, num) {
     console.log(`Evaluating the ${name} side`);
     return num;
@@ -23,7 +34,7 @@ function echo(name, num) {
   // 0.4444444444444444
 
 
-  function A() { console.log('called A'); return false; }
+function A() { console.log('called A'); return false; }
 function B() { console.log('called B'); return false; }
 function C() { console.log('called C'); return true; }
 
