@@ -19,3 +19,6 @@ console.log(OnePlus11.Android);
 console.log(OnePlus11.AndroidVersion);
 console.log(OnePlus11.OS);
 console.log(OnePlus11.OS_Version);
+console.log(OnePlus11["Storage"]);
+
+console.log(`"OS VERSION IS ${OnePlus11["OS_Version"]}`)

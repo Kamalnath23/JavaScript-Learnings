@@ -5,9 +5,9 @@ var user = {
     role: "Admin",
     loginCount : '32',
     faceBookSignedIn : true,
-    courseList: [],
+    courseList: [], //array
     //method 1
-    buyCourse: function (courseName){
+    buyCourse: function (courseName){ //function
         //if you want to refer to a variable which is inside the same object you wnat to refer. we use the keyword this
         this.courseList.push(courseName);
     },

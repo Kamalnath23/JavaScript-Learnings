@@ -9,7 +9,7 @@ var user={
             console.log("Hello!");
             console.log("Line 10", this);
         }
-        sayHello();
+        sayHello(); // for all regular function calls, 'this' refers to the global(window) object (or undefined in strict mode)
     }
 };
 

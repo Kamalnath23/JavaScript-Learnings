@@ -7,3 +7,6 @@ if(2==="2"){
 }else{
     console.log("'2==='2'' is false!");
 }
+
+// === is strict equality operator
+// == is loose equality operator

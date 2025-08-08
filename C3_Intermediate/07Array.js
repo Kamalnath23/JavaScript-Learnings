@@ -28,9 +28,9 @@ console.log(userData);
 userData.shift();
 console.log(userData);
 
-console.log(userData.indexOf(3)); //search for anything specific.
+console.log(userData.indexOf(3)); //search for anything specific. //returns the index number of input
 console.log(userData.indexOf("Kamal"));
 console.log(userData.indexOf("newbie"));
 
 console.log("Sandhiya");
-console.log(Array.from("Sandhiya"));
+console.log(Array.from("Sandhiya")); //convert string to array

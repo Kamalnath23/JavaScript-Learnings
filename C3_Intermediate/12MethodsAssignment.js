@@ -28,6 +28,7 @@ var user = {
         firstName: ${this.firstName},
         lastName: ${this.lastName}",
         role: ${this.role},
+        
         loginCount : ${this.loginCount},
         faceBookSignedIn : ${this.faceBookSignedIn},
         courseList: ${this.courseList},
