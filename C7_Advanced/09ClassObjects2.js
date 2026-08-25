@@ -14,3 +14,7 @@ Loki.enrolPowerType("Illusions");
 console.log("Thanos Power Type: " + Thanos.getPowerType());
 console.log("Loki Power Type: " + Loki.getPowerType());
 Thanos.getMarvelDetails();
+let ThanosInfo = Thanos.getInfo(); //Marvel name: Thanos, Thanos's power: Infinity Gauntlet, Thanos's weapon: Super Strength
+console.log(ThanosInfo); //Marvel name: Thanos, Thanos's power: Infinity Gauntlet, Thanos's weapon: Super Strength
+console.log(Thanos.getInfo); //undefined because getInfo is a method, not a property
+Marvel.sayHello(); //Hello from Marvel class
