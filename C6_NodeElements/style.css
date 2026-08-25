@@ -1,0 +1,12 @@
+body{
+    background-color: #4b3838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button#myButton2{
+    display: inline-block;
+    background-color: #0e39d3;
+}
